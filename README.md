@@ -2,7 +2,7 @@ i learned powershell for this
 
 its a powershell script
 
-in order for it to work youve got to set [google drive for desktop]([url](https://support.google.com/drive/answer/10838124)) to MIRROR FILES to your hard drive
+in order for it to work youve got to set [google drive for desktop]([url](https://support.google.com/drive/answer/10838124/)) to MIRROR FILES to your hard drive
 then you gotta run it.
 then you gotta go to that folder and take your email address out of the name so that the script can find it
 eg. 'C:\Users\useraccount\My Drive (email@gmail.com)\' turns into 'C:\Users\useraccount\My Drive\'
