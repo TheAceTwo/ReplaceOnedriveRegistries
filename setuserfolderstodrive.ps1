@@ -18,10 +18,6 @@ foreach ($folder in $folders.Keys) {
     Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" -Name $folder -Value $folders[$folder]
 }
 
-# Set Windows PowerShell as the default app for .ps1 files
-$ps1Association = "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
-Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ps1\UserChoice" -Name "ProgId" -Value "Microsoft.PowerShellScript.1"
-
 # Force Windows to recognize changes
 Stop-Process -Name explorer -Force
 Start-Process explorer
