@@ -1,5 +1,5 @@
 # Define new folder locations inside Google Drive
-$googleDrivePath = "$env:USERPROFILE\My Drive (mrcodypearl@gmail.com)"
+$googleDrivePath = "$env:USERPROFILE\My Drive"
 $folders = @{
     "Personal"    = "$googleDrivePath\Documents"
     "Downloads"   = "$googleDrivePath\Downloads"
